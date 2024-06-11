@@ -6,7 +6,7 @@ title: >
 comment: >
   This is used as a subtitle or as a description of your page
 
-logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Universitaetsbibliothek_Freiberg_Fassade.jpg/1024px-Universitaetsbibliothek_Freiberg_Fassade.jpg
+logo: logo.jpg
 
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Logo_TU_Bergakademie_Freiberg.svg/242px-Logo_TU_Bergakademie_Freiberg.svg.png
 
@@ -84,16 +84,76 @@ collection:
   - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Chemistry-Intermediate-Workbook/main/English/README.md
   - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Middle-School-Math-Grade-8/main/English/README.md
   - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-From-Vitamins-to-Baked-Goods/main/English/README.md
-  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Sustainable-Energy-Without-the-Hot-Air/main/English/README.md
   - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Chemistry-Intermediate/main/English/README.md
   - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Algebra-I-Honors/main/English/README.md
   - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Algebra-Basic/main/English/README.md
   - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Biology/main/English/README.md
-  - url: https://raw.githubusercontent.com/LiaBooks/flexbook-physics-from-stargazers-to-starships/main/English/README.md
   - url: https://raw.githubusercontent.com/LiaBooks/flexbook-cbse-maths-class-12/main/English/README.md
-  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Digital-Imaging-1/main/English/README.md
-  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Teen-Health-Literacy/main/English/README.md
-  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-EPISD-Sociology/main/English/README.md
-  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Origins-and-the-Search-for-Life-in-the-Universe/main/English/README.md
   - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Chemistry-Intermediate-Quizzes-and-Tests/main/English/README.md
   - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Anatomy-and-Physiology/main/English/README.md
+
+
+  - title: Physics
+    comment: ""
+    collection:
+      - url: https://raw.githubusercontent.com/LiaBooks/flexbook-physics-from-stargazers-to-starships/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Physics-Intermediate/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Peoples-Physics-Book-Basic/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Peoples-Physics-Book-Version-3/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Peoples-Physics-Concepts/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Open-Problems-Adventures-in-Physics/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-CBSE-Physics-Class-9/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-CBSE-Physics-Class-11/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-BSE-Physics-Class-12/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Modeling-and-Simulation-for-High-School-Teachers/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-21st-Century-Physics/main/English/README.md
+
+  - title: Writing
+    comment: ""
+    collection:
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Commonsense-Composition/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Journalism-101/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-The-Glyfada-Method/main/English/README.md
+
+  - title: Engineering
+    comment: ""
+    collection:
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-An-Introduction-to-Solving-Engineering-Problems-with-MATLAB/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-What-is-Testing/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Engineering-An-Introduction-for-High-School/main/English/README.md
+
+  - title: Technology
+    comment: ""
+    collection:
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Nanoleap-Student-Journal/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Sustainable-Energy-Without-the-Hot-Air/main/English/README.md
+
+  - title: Astronomy
+    comment: ""
+    collection:
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Origins-and-the-Search-for-Life-in-the-Universe/main/English/README.md
+
+  - title: Health
+    comment: ""
+    collection:
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Teen-Health-Literacy/main/English/README.md
+
+  - title: Photography
+    comment: ""
+    collection:
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Digital-Imaging-1/main/English/README.md
+
+  - title: Economics
+    comment: ""
+    collection:
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-EPISD-Economics-with-Emphasis-on-the-Free-Enterprise-System/main/English/README.md
+
+  - title: Geography
+    comment: ""
+    collection:
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-EPISD-World-Geo-2019/main/English/README.md
+
+  - title: Sociology
+    comment: ""
+    collection:
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-EPISD-Sociology/main/English/README.md
