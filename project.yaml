@@ -1,0 +1,99 @@
+title: >
+  <span style="background-color: rgba(0,106,179,0.75); padding: 5px; color: white">
+    LiaBooks - Collection of interactive LiaScript Textbooks
+  </span>
+
+comment: >
+  This is used as a subtitle or as a description of your page
+
+logo: https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Universitaetsbibliothek_Freiberg_Fassade.jpg/1024px-Universitaetsbibliothek_Freiberg_Fassade.jpg
+
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Logo_TU_Bergakademie_Freiberg.svg/242px-Logo_TU_Bergakademie_Freiberg.svg.png
+
+footer: >
+  Simply add a custom footer - that can also contain HTML
+  <a href="https://liascript.github.io" target="_blank">Made with LiaScript</a>
+
+# With this settings you can customize social metadata, og-graph for facebook or twitter
+# if not present, the title, comment, and logo will be used.
+# You can explicitly turn this of with the cmd-parameter --project-no-meta
+meta:
+  title: OER-Collection
+  description: Sammlung der OER Inhalte der Arbeitsgruppe Softwareentwicklung und Robotik (TU Freiberg)
+  #image: url
+
+
+
+collection:
+  - html: >
+      <h1>Wikibooks</h1>
+      
+      <p>
+      Wikibooks is a Wikimedia project focused on creating free and open-content textbooks and other educational resources.
+      These resources, referred to as "open books," are collaboratively written by volunteers from around the world and cover a wide range of subjects, from academic topics to practical skills.
+      The following courses are based on the content of the Wikibooks project and have been converted into interactive LiaScript textbooks.
+      </p>
+
+      <p>
+      Help us to improve the content by translating further books from the Wikibooks at:
+      <a href="https://www.wikibooks.org/" target="_blank">www.wikibooks.org</a>
+      </p>
+
+  - url: https://raw.githubusercontent.com/LiaBooks/Lua-Programming/master/README.md
+    tags: 
+      - Lua
+      - Programming
+      - Scripting
+      - English
+  - url: https://raw.githubusercontent.com/liaBooks/C-Programmierung/master/README.md
+    tags: 
+      - C
+      - Programming
+      - German
+  - url: https://raw.githubusercontent.com/liaBooks/C-Programming/master/README.md
+    tags: 
+      - C
+      - Programming
+  - url: https://raw.githubusercontent.com/LiaBooks/How-To-Code-in-Python-3/main/README.md
+    tags: 
+      - Python
+      - Programming
+      - English
+  - url: https://raw.githubusercontent.com/liaBooks/Arbeitsbuch-Prolog/master/README.md
+    tags: 
+      - Prolog
+      - Programming
+      - German
+
+  - html: >
+      <br>
+      <h1>Flexbooks</h1>
+      
+      <p>
+      The FlexBook project, initiated by the CK-12 Foundation, is an innovative initiative aimed at providing customizable, free, and open educational resources for K-12 students and teachers.
+      FlexBooks are digital textbooks that can be tailored to meet the specific needs of educators and learners, promoting personalized learning experiences.
+      The following courses are based on the content of the FlexBook project and have been automatically converted into LiaScript textbooks.
+      </p>
+
+      <p>
+      Help us to improve the content, translate books into other languages, or create new books at:  
+      <a href="https://www.ck12.org/" target="_blank">www.ck12.org</a>
+      </p>
+
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Algebra-Explorations-Pre-K-through-Grade-7/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Chemistry-Intermediate-Workbook/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Middle-School-Math-Grade-8/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-From-Vitamins-to-Baked-Goods/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Sustainable-Energy-Without-the-Hot-Air/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Chemistry-Intermediate/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Algebra-I-Honors/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Algebra-Basic/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Biology/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/flexbook-physics-from-stargazers-to-starships/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/flexbook-cbse-maths-class-12/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Digital-Imaging-1/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Teen-Health-Literacy/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-EPISD-Sociology/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Origins-and-the-Search-for-Life-in-the-Universe/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Chemistry-Intermediate-Quizzes-and-Tests/main/English/README.md
+  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Anatomy-and-Physiology/main/English/README.md
