@@ -1,27 +1,28 @@
 title: >
   <span style="background-color: rgba(0,106,179,0.75); padding: 5px; color: white">
-    LiaBooks - Collection of interactive LiaScript Textbooks
+    LiaBooks - Collection of interactive Textbooks
   </span>
 
 comment: >
-  This is used as a subtitle or as a description of your page
+  <br>
+  <span style="background-color: rgba(0,106,179,0.75); padding: 5px; color: white">
+    ... made with LiaScript ...
+  </span>
 
 logo: logo.jpg
 
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Logo_TU_Bergakademie_Freiberg.svg/242px-Logo_TU_Bergakademie_Freiberg.svg.png
 
 footer: >
-  Simply add a custom footer - that can also contain HTML
-  <a href="https://liascript.github.io" target="_blank">Made with LiaScript</a>
+  For more information about LiaScript as a Markup language for interactive Open Educational Resources, visit our website:
+  <a href="https://liascript.github.io" target="_blank">https://LiaScript.github.io</a>
 
 # With this settings you can customize social metadata, og-graph for facebook or twitter
 # if not present, the title, comment, and logo will be used.
 # You can explicitly turn this of with the cmd-parameter --project-no-meta
 meta:
-  title: OER-Collection
-  description: Sammlung der OER Inhalte der Arbeitsgruppe Softwareentwicklung und Robotik (TU Freiberg)
-  #image: url
-
+  title: LiaBooks
+  description: Collection of interactive Textbooks translated to LiaScript markdown
 
 
 collection:
@@ -80,21 +81,40 @@ collection:
       <a href="https://www.ck12.org/" target="_blank">www.ck12.org</a>
       </p>
 
-  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Algebra-Explorations-Pre-K-through-Grade-7/main/English/README.md
-  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Chemistry-Intermediate-Workbook/main/English/README.md
-  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Middle-School-Math-Grade-8/main/English/README.md
+  
   - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-From-Vitamins-to-Baked-Goods/main/English/README.md
-  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Chemistry-Intermediate/main/English/README.md
-  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Algebra-I-Honors/main/English/README.md
-  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Algebra-Basic/main/English/README.md
   - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Biology/main/English/README.md
-  - url: https://raw.githubusercontent.com/LiaBooks/flexbook-cbse-maths-class-12/main/English/README.md
-  - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Chemistry-Intermediate-Quizzes-and-Tests/main/English/README.md
   - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Anatomy-and-Physiology/main/English/README.md
 
+  - title: Mathematics
+    comment: ""
+    grid: true
+    collection:
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Algebra-Explorations-Pre-K-through-Grade-7/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Algebra-I-Honors/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Algebra-Basic/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Middle-School-Math-Grade-8/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/flexbook-cbse-maths-class-12/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Algebra-II-with-Trigonometry/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Middle-School-Math-Grade-7/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Middle-School-Math-Grade-6/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Algebra-Explorations-Concepts-Pre-K-through-Grade-7/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-CBSE-Maths-Class-11/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Interactive-Middle-School-Math-6/main/English/README.md
+
+
+  - title: Chemistry
+    comment: ""
+    grid: true
+    collection:
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Chemistry-Intermediate-Workbook/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-From-Vitamins-to-Baked-Goods/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Chemistry-Intermediate/main/English/README.md
+      - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Chemistry-Intermediate-Quizzes-and-Tests/main/English/README.md
 
   - title: Physics
     comment: ""
+    grid: true
     collection:
       - url: https://raw.githubusercontent.com/LiaBooks/flexbook-physics-from-stargazers-to-starships/main/English/README.md
       - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-CK-12-Physics-Intermediate/main/English/README.md
@@ -110,6 +130,7 @@ collection:
 
   - title: Writing
     comment: ""
+    grid: true
     collection:
       - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Commonsense-Composition/main/English/README.md
       - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Journalism-101/main/English/README.md
@@ -117,6 +138,7 @@ collection:
 
   - title: Engineering
     comment: ""
+    grid: true
     collection:
       - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-An-Introduction-to-Solving-Engineering-Problems-with-MATLAB/main/English/README.md
       - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-What-is-Testing/main/English/README.md
@@ -124,36 +146,43 @@ collection:
 
   - title: Technology
     comment: ""
+    grid: true
     collection:
       - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Nanoleap-Student-Journal/main/English/README.md
       - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Sustainable-Energy-Without-the-Hot-Air/main/English/README.md
 
   - title: Astronomy
     comment: ""
+    grid: true
     collection:
       - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Origins-and-the-Search-for-Life-in-the-Universe/main/English/README.md
 
   - title: Health
     comment: ""
+    grid: true
     collection:
       - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Teen-Health-Literacy/main/English/README.md
 
   - title: Photography
     comment: ""
+    grid: true
     collection:
       - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-Digital-Imaging-1/main/English/README.md
 
   - title: Economics
     comment: ""
+    grid: true
     collection:
       - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-EPISD-Economics-with-Emphasis-on-the-Free-Enterprise-System/main/English/README.md
 
   - title: Geography
     comment: ""
+    grid: true
     collection:
       - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-EPISD-World-Geo-2019/main/English/README.md
 
   - title: Sociology
     comment: ""
+    grid: true
     collection:
       - url: https://raw.githubusercontent.com/LiaBooks/Flexbook-EPISD-Sociology/main/English/README.md
